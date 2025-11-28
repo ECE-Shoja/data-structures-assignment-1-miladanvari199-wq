@@ -11,7 +11,6 @@ int findSet(int v) {
     }
     return v;
 }
-    // TODO: implement path compression
 
 
 void unionSet(int a, int b) {
@@ -30,7 +29,6 @@ void unionSet(int a, int b) {
     }
     
 }
-// TODO: implement union by size/rank
 
 int main() {
     ios::sync_with_stdio(false);
